@@ -20,6 +20,9 @@
         left: 0;
         width: 100vw;
         padding: 3rem;*/
+        position: fixed;
+        width: 100vw;
+        padding: 3rem .5rem;
         
         /* background-color: rgba(2,0,36,0.1);  */
     }
