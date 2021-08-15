@@ -2,10 +2,10 @@
 
 
     #linha{
-        width: 10%;
+        width: 15%;
         background-color: #58a3bc;
         height: 2px;
-        margin: 10px auto;
+        margin: 0 auto 15px auto;
     }
     
     #corpo-site{
@@ -177,7 +177,7 @@
         width: 100%;
         /* text-align: center; */
         margin: auto auto;
-        padding: 1rem;
+        padding: .5rem 1rem;
     }
 
     .tela-servicos #card1 img{
