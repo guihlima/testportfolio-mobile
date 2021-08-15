@@ -22,17 +22,21 @@ ul {
 }
 
 #header {
-    background-color: rgba(2, 0, 36, 0.1);
+    background-color: rgba(2,0,36,0.1); 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: fixed;
+    right: 0;
+    left: 0;
+    /* padding: 0 5rem; */
     align-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
     height: 70px;
 }
 
 #menu {
     display: flex;
-    gap: .5rem;
+    gap: 1.5rem;
 }
 
 #menu a {
@@ -41,7 +45,7 @@ ul {
 }
 
 #btn-menu {
-    display: none;
+    /* display: ; */
 }
 
 /* #nav #menu li:hover{
