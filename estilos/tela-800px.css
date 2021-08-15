@@ -144,7 +144,7 @@
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
-        height: 120vh;
+        height: 350vh;
         /* height: 90vh; */
         border-bottom: 1px solid #000;
     }
@@ -190,7 +190,7 @@
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
-        height: 180vh;
+        height: 400vh;
         /* height: 180vh; */
         border-bottom: 1px solid #000;
     }
@@ -215,7 +215,7 @@
         text-align: center;
         padding: 30px;
         /* height: 150vh; */
-        height: 60vh;
+        height: 180vh;
         border-bottom: 1px solid #000;
     }
 
