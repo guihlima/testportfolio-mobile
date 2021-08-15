@@ -166,7 +166,7 @@
         padding: 30px;
         height: 170vh;
         /* height: 130vh; */
-        border-bottom: 1px solid #000;
+        /* border-bottom: 1px solid #000; */
     }
 
     .tela-servicos h3, .tela-trabalhos h3, .tela-contato h3{
@@ -212,7 +212,7 @@
         padding: 30px;
         height: 150vh;
         /* height: 160vh; */
-        border-bottom: 1px solid #000;
+        /* border-bottom: 1px solid #000; */
     }
     
 
@@ -239,7 +239,7 @@
         padding: 30px;
         /* height: 150vh; */
         /* height: 100vh; */ /*Olhar isso nos 800px*/
-        border-bottom: 1px solid #000;
+        /* border-bottom: 1px solid #000; */
     }
 
     .tela-contato #formulario{
@@ -261,6 +261,7 @@
         /* margin: auto auto; */
         border-radius: 3px;
         padding: 5px;
+        border: none;
         /* padding: 10px; */
     }
 
