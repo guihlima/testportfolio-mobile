@@ -165,6 +165,7 @@
         text-align: center;
         padding: 30px;
         height: 170vh;
+        z-index: 500;
         /* height: 130vh; */
         /* border-bottom: 1px solid #000; */
     }
@@ -211,6 +212,7 @@
         text-align: center;
         padding: 30px;
         height: 150vh;
+        z-index: 500;
         /* height: 160vh; */
         /* border-bottom: 1px solid #000; */
     }
