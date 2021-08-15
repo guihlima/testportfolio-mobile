@@ -1,0 +1,318 @@
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+@media (max-width: 600px) {
+
+
+    #linha{
+        width: 10%;
+        background-color: #58a3bc;
+        height: 2px;
+        margin: 10px auto;
+    }
+    
+    #corpo-site{
+        overflow-x: hidden;
+    }
+    #header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        padding: 3rem;
+        background-color: rgba(2,0,36,0.1);
+    }
+
+    #nav{
+        position: fixed;
+        right: 12px;
+    }
+    #menu {
+        display: block;
+        position: fixed;
+        top: 70px;
+        background-color: rgba(2,0,36,0.1);
+        right: 0;
+        width: 25%;
+        height: 0;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+    }
+    #menu li {
+        padding: .5rem;
+    }
+    #menu a {
+        /* padding: 1rem; */
+        /* color: white; */
+        margin: 0 .2rem;
+        /* border-bottom: 2px solid  rgba(0, 0, 0, .05); */
+        border-bottom: 2px solid #fff;
+    }
+    #nav.ativo #menu {
+        visibility: visible;
+        /* display: flex; */
+        height: calc(45vh - 70px);/*tamanho menu quando aberto*/
+        /* overflow-y: auto; */
+    }
+    #btn-menu {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+        color: white;
+    }
+    #hamburger::after, #hamburger::before {
+        content: '';
+        /*Pega conteudo da #hamburger*/
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        /*Cor de fundo de hamburger*/
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.ativo #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.ativo #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    #nav.ativo #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #home {
+        width: 100vw;
+        overflow: hidden;
+        height: 100vh;
+        padding: 1rem;
+        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(5, 95, 186, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    }
+    #logo {
+        color: white;
+    }
+    main {
+        width: 100vh;
+        text-align: left;
+        /* display: flex; */
+        /* justify-content: left; */
+        /* flex-direction: column; */
+        margin-top: 5rem;
+        padding: 2.5rem;
+        color: #fff;
+    }
+    
+    main #descricao{
+        /* text-align: left; */
+        width: 70%;
+    }
+    main h3 {
+        margin-top: 5rem;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 10px;
+        width: 17%;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        color: #055fba;
+    }
+
+    main h2{
+        font-size: 35px;
+        font-weight: 100;
+        margin-top: 20px; 
+    }
+
+    #redes-sociais ul{
+        /* width: 40px; */
+        /* background-color: red; */
+        display: flex;
+        gap: .5rem;
+        padding-top: 1rem;
+    }
+    #redes-sociais .icones{
+        width: 40px;
+        padding: .5rem;
+        border-radius: 10px;
+        border: 1px solid #fff;
+    }
+
+    #tela-servicos{
+        background: #e1e4e8;
+        text-align: center;
+        padding: 30px;
+        height: 150vh;
+        /* height: 130vh; */
+        border-bottom: 1px solid #000;
+    }
+
+    #tela-servicos h3, #tela-trabalhos h3, #tela-contato h3{
+        font-size: 30px;
+    }
+
+    #tela-servicos p, #tela-trabalhos p, #tela-contato p{
+        width: 100%;
+        /* text-align: center; */
+        margin: auto auto;
+        padding: 1rem;
+    }
+
+    
+
+    /* #tela-servicos #cards{
+        /* padding: 30px; 
+    } */
+
+
+    #tela-trabalhos{
+        background: #e1e4e8;
+        text-align: center;
+        padding: 30px;
+        /* height: 150vh; */
+        height: 200vh;
+        border-bottom: 1px solid #000;
+    }
+    
+
+    #tela-servicos #card1 img{
+        width: 50px;
+        /* background: #fff; */
+    }
+
+    #tela-servicos #card1{
+        background: #fff;
+        width: 80%;
+        height: 220px;
+        padding: 20px;
+        margin: auto auto;
+        /* padding: 20px; */
+        margin-top: 30px;
+        /* margin-bottom: 30px; */
+        border-radius: 10px;
+    }
+
+    #tela-trabalhos #cards{
+        background-color: red;
+        width: 90%;
+    }
+
+    #tela-trabalhos #card1{
+    }
+
+    #tela-trabalhos #card1 img{
+        width: 100%;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+
+    #tela-contato{
+        background: #e1e4e8;
+        text-align: center;
+        padding: 30px;
+        /* height: 150vh; */
+        height: 100vh;
+        border-bottom: 1px solid #000;
+    }
+
+    #tela-contato #formulario{
+        /* margin: auto auto; */
+    }
+
+    #tela-contato #formulario input{
+        width: 250px;
+        height: 25px;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+    }
+
+    #tela-contato #formulario textarea{
+        width: 250px;
+        /* margin: auto auto; */
+        border-radius: 3px;
+        padding: 5px;
+        /* padding: 10px; */
+    }
+
+    #tela-contato #btn-enviar input{
+        height: 40px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+    }
+
+
+    #tela-contato #contato{
+        border: 1px splid #000;
+        display: flex;
+        margin-top: 50px;
+        margin-right:20px;
+        gap: 20px;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    
+    #tela-contato #contato img{
+        width: 40px;
+    }
+
+    #tela-contato p{
+        font-size: .8rem;
+    }
+
+    #tela-contato #inicio{
+        /* width:250px; */
+        text-align: center;
+        /* padding: 10px; */
+    }
+    #tela-contato #phone{
+        width:300px;
+        text-align: center;
+        /* padding: 10px; */
+    }
+
+    #rodape{
+        background: #055fba;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        align-items: center;
+        width: 100vw;
+        margin: auto auto;
+        color: #fff;
+    }
+
+    #rodape #redes-sociais-footer ul{
+        display: flex;
+        gap: 20px;
+    }
+
+    #rodape #redes-sociais-footer .icons {
+        width: 40px;
+        /* margin-top: 20px; */
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        /* background-color: red; */
+    }
+}

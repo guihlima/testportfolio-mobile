@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+/* img{
+    width: 40px;
+} */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+#header {
+    background-color: rgba(2, 0, 36, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 70px;
+}
+
+#menu {
+    display: flex;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .2rem;
+}
+
+#btn-menu {
+    display: none;
+}
+
+/* #nav #menu li:hover{
+    transform: scale(1.1);
+} */
+
