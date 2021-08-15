@@ -237,6 +237,7 @@
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
+        z-index: 2000;
         /* height: 150vh; */
         /* height: 100vh; */ /*Olhar isso nos 800px*/
         /* border-bottom: 1px solid #000; */
