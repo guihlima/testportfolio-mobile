@@ -152,7 +152,7 @@
         border: 1px solid #fff;
     }
 
-    #tela-servicos{
+    .tela-servicos{
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
@@ -161,23 +161,23 @@
         border-bottom: 1px solid #000;
     }
 
-    #tela-servicos h3, #tela-trabalhos h3, #tela-contato h3{
+    .tela-servicos h3, .tela-trabalhos h3, .tela-contato h3{
         font-size: 30px;
     }
 
-    #tela-servicos p, #tela-trabalhos p, #tela-contato p{
+    .tela-servicos p, .tela-trabalhos p, .tela-contato p{
         width: 100%;
         /* text-align: center; */
         margin: auto auto;
         padding: 1rem;
     }
 
-    #tela-servicos #card1 img{
+    .tela-servicos #card1 img{
         width: 50px;
         /* background: #fff; */
     }
 
-    #tela-servicos #card1{
+    .tela-servicos #card1{
         background: #fff;
         width: 90%;
         height: 220px;
@@ -189,16 +189,16 @@
         border-radius: 10px;
     }
 
-    #tela-servicos #cards p{
+    .tela-servicos #cards p{
         font-size: 14px;
         width: 100%;
     }
-    /* #tela-servicos #cards{
+    /* .tela-servicos #cards{
         /* padding: 30px; 
     } */
 
 
-    #tela-trabalhos{
+    .tela-trabalhos{
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
@@ -210,22 +210,22 @@
 
     
 
-    #tela-trabalhos #cards{
+    .tela-trabalhos #cards{
         background-color: red;
         width: 90%;
     }
 
-    #tela-trabalhos #card1{
+    .tela-trabalhos #card1{
     }
 
-    #tela-trabalhos #card1 img{
+    .tela-trabalhos #card1 img{
         width: 100%;
         padding: 20px;
         border-radius: 30px;
     }
 
 
-    #tela-contato{
+    .tela-contato{
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
@@ -234,11 +234,11 @@
         border-bottom: 1px solid #000;
     }
 
-    #tela-contato #formulario{
+    .tela-contato #formulario{
         /* margin: auto auto; */
     }
 
-    #tela-contato #formulario input{
+    .tela-contato #formulario input{
         width: 250px;
         height: 25px;
         padding: 10px;
@@ -248,7 +248,7 @@
         border: none;
     }
 
-    #tela-contato #formulario textarea{
+    .tela-contato #formulario textarea{
         width: 250px;
         /* margin: auto auto; */
         border-radius: 3px;
@@ -256,7 +256,7 @@
         /* padding: 10px; */
     }
 
-    #tela-contato #btn-enviar input{
+    .tela-contato #btn-enviar input{
         height: 40px;
         background-color: #fff;
         padding: 10px;
@@ -265,7 +265,7 @@
     }
 
 
-    #tela-contato #contato{
+    .tela-contato #contato{
         display: flex;
         margin-top: 2rem;
     }
