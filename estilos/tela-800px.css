@@ -75,9 +75,11 @@
     
     #home {
         width: 100vw;
+        height: 250vh;
         overflow: hidden;
-        height: 100vh;
+        /* height: 100vh; */
         /* padding: 1rem; */
+        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(5, 95, 186, 1) 35%, rgba(0, 212, 255, 1) 100%);
         
     }
     #logo {
@@ -93,7 +95,7 @@
         /* margin-top: 5rem; */
         /* padding: 2.5rem; */
         color: #fff;
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(5, 95, 186, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        
     }
     
     main #descricao{
