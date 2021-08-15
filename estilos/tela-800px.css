@@ -85,7 +85,7 @@
     }
     main {
         width: 100vw;
-        height: 100vh;
+        height: 120vh;
         text-align: left;
         /* display: flex; */
         /* justify-content: left; */
@@ -144,8 +144,8 @@
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
-        /* height: 150vh; */
-        height: 90vh;
+        height: 150vh;
+        /* height: 90vh; */
         border-bottom: 1px solid #000;
     }
 
@@ -190,7 +190,7 @@
         background: #e1e4e8;
         text-align: center;
         padding: 30px;
-        height: 140vh;
+        height: 200vh;
         /* height: 180vh; */
         border-bottom: 1px solid #000;
     }
